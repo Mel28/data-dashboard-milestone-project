@@ -16,18 +16,30 @@
     <script type="text/javascript" src="static/js/graph.js"></script>
 </head>
 <body>
-    <h1>WISE mission Near Earth Astroid and Comet Data</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">Wise Data Dashboard</a>
+  <div class="collapse navbar-collapse" id="navbarColor01">
+  </div>
+</nav>
+    <div class= "container">
+   
+    <div class= "row"><h1 class="heading">WISE mission Near Earth Astroid and Comet Data</h1></div>
     
+   <div class="row">
     <div id="discovery-year-selector"></div>
-    
-    <div id="PHA-data"></div>
-    
-    <div id="orbit-correlation"></div>
-    
-    <div>
-        <h3>Asteroid Orbital Class Pie Chart</h3>
-    <div id="orbit-class-chart"></div>
     </div>
     
+    <div class="row">
+    <div class="col-md-6">
+        <h3 class="heading">Potentially Hazardous Asteroids</h3>
+    <div class="col-md-6" id="PHA-data"></div>
+    </div>
+    
+    <div class="col-md-6">
+        <h3 class="heading">Asteroid Orbital Class Pie Chart</h3>
+    <div class="col-md-6" id="orbit-class-chart"></div>
+    </div>
+    </div>
+    </div>
 </body>
 </html>
