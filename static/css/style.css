@@ -1,1 +1,12 @@
 .heading {color: #2C3E50;}
+
+div{
+display: block;
+margin: 0 auto;
+}
+
+#discovery-year-selector{
+    position: relative;
+    text-align: center;
+    width: 200px;
+}
