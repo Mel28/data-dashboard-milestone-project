@@ -17,3 +17,7 @@ from the NASA data portal. </p>
 <p> Finally, I added a small amount of CSS to make it more aesthetically pleasing. I used Bootswatch themes to 
 create the Nav bar. I inspected the navbar using web dev tools on google chrome to find out the colour of the
 Navbar and applied this colour to the text in the headings. I also centred the selectMenu using CSS </p>
+<P> I deployed the project several times throughout development. I ensured that it is working correctly in all 
+browsers; Internet Explorer, Firefox and Google Chrome. There were no issues there. I checked the application
+on different devises, the containers of the graphs are responsive however it is not possible to make the graphs
+themselves responsive as charts using D3.js are designed for desktop or large-screen viewing.  </p>
